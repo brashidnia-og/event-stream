@@ -42,6 +42,8 @@ fun <T : MessageType> Flow<Message>.decodeMessages(decoder: MessageDecoder): Flo
         }
     }.transform {
         val log = KotlinLogging.logger {}
+        log.info("transform it.toString()")
+        log.info(it.toString())
         when (it) {
             is MessageType.Panic -> {
                 throw CancellationException("RPC endpoint panic: ${it.error}")
