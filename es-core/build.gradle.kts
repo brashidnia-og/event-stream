@@ -20,6 +20,8 @@ dependencies {
     implementation(libs.json)
     implementation(libs.moshi.kotlin.codegen)
 
+    implementation(libs.fasterxml.jackson.module.kotlin)
+
     testFixturesImplementation("io.reactivex.rxjava2:rxjava:2.2.21")
     testFixturesImplementation("org.reactivestreams:reactive-streams:1.0.4")
     testFixturesImplementation("com.tinder.scarlet:scarlet-core-internal:0.1.12")

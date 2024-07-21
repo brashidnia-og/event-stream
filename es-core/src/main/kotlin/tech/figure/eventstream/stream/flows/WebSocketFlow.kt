@@ -11,6 +11,7 @@ import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.transform
 import mu.KotlinLogging
 import tech.figure.eventstream.adapter.json.decoder.MessageDecoder
+import tech.figure.eventstream.common.debug.toJsonString
 import tech.figure.eventstream.decoder.DecoderAdapter
 import tech.figure.eventstream.defaultLifecycle
 import tech.figure.eventstream.defaultWebSocketChannel
@@ -43,7 +44,7 @@ fun <T : MessageType> Flow<Message>.decodeMessages(decoder: MessageDecoder): Flo
     }.transform {
         val log = KotlinLogging.logger {}
         log.info("transform it.toString()")
-        log.info(it.toString())
+        log.info(it.toJsonString())
         when (it) {
             is MessageType.Panic -> {
                 throw CancellationException("RPC endpoint panic: ${it.error}")
