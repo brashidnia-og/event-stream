@@ -23,8 +23,8 @@ task<JacocoReport>("jacocoAggregateReport") {
     afterEvaluate {
         classDirectories.setFrom(files(classDirectories.files.map {
             fileTree(it).exclude(
-                "tech/figure/eventstream/stream/models/*",
-                "tech/figure/eventstream/stream/apis/*",
+                "com/bybob/blockchain/eventstream/stream/models/*",
+                "com/bybob/blockchain/eventstream/stream/apis/*",
             )})
         )
     }
