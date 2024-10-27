@@ -1,4 +1,4 @@
-package com.bybob.blockchain.evenstream.stream
+package com.bybob.blockchain.eventstream.stream
 
 import java.io.File
 import java.util.concurrent.atomic.AtomicLong

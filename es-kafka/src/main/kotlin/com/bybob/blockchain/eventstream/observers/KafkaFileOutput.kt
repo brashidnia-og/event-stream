@@ -3,7 +3,7 @@ package com.bybob.blockchain.eventstream.observers
 import com.squareup.moshi.JsonAdapter
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.adapter
-import com.bybob.blockchain.evenstream.api.BlockSink
+import com.bybob.blockchain.eventstream.api.BlockSink
 import com.bybob.blockchain.eventstream.stream.models.StreamBlock
 import com.bybob.blockchain.eventstream.stream.models.StreamBlockImpl
 import com.bybob.blockchain.eventstream.stream.models.sha256

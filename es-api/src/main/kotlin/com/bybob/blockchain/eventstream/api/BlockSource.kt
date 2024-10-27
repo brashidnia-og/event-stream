@@ -1,4 +1,4 @@
-package com.bybob.blockchain.evenstream.api
+package com.bybob.blockchain.eventstream.api
 
 import com.bybob.blockchain.eventstream.stream.models.StreamBlock
 import kotlinx.coroutines.flow.Flow

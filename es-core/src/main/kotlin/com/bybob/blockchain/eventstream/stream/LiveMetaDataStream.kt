@@ -1,16 +1,16 @@
-package com.bybob.blockchain.evenstream.stream
+package com.bybob.blockchain.eventstream.stream
 
 import com.tinder.scarlet.Message
 import com.tinder.scarlet.WebSocket
-import com.bybob.blockchain.evenstream.stream.models.Block
+import com.bybob.blockchain.eventstream.stream.models.Block
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.channelFlow
 import mu.KotlinLogging
 import com.bybob.blockchain.eventstream.adapter.json.decoder.DecoderEngine
-import com.bybob.blockchain.evenstream.stream.rpc.request.Subscribe
-import com.bybob.blockchain.evenstream.stream.rpc.response.MessageType
+import com.bybob.blockchain.eventstream.stream.rpc.request.Subscribe
+import com.bybob.blockchain.eventstream.stream.rpc.response.MessageType
 
 /**
  * Create a [Flow] of [Block] from a [WebSocketService].

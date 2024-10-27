@@ -1,6 +1,6 @@
-package com.bybob.blockchain.evenstream.stream.flows
+package com.bybob.blockchain.eventstream.stream.flows
 
-import com.bybob.blockchain.evenstream.stream.infrastructure.ServerException
+import com.bybob.blockchain.eventstream.stream.infrastructure.ServerException
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.async
 import kotlinx.coroutines.channels.Channel
@@ -15,7 +15,7 @@ import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.flow.retryWhen
 import mu.KotlinLogging
-import com.bybob.blockchain.evenstream.net.NetAdapter
+import com.bybob.blockchain.eventstream.net.NetAdapter
 import com.bybob.blockchain.eventstream.utils.backoff
 import java.io.EOFException
 import java.net.ConnectException

@@ -1,9 +1,9 @@
 package com.bybob.blockchain.eventstream.stream
 
-import com.bybob.blockchain.evenstream.stream.models.Block
+import com.bybob.blockchain.eventstream.stream.models.Block
 import com.bybob.blockchain.eventstream.stream.models.BlockEvent
 import com.bybob.blockchain.eventstream.stream.models.StreamBlock
-import com.bybob.blockchain.evenstream.stream.models.BlockResultsResponseResultTxsResults
+import com.bybob.blockchain.eventstream.stream.models.BlockResultsResponseResultTxsResults
 import com.bybob.blockchain.eventstream.stream.models.TxError
 import com.bybob.blockchain.eventstream.stream.models.TxEvent
 import io.provenance.kafka.coroutine.AckedConsumerRecord

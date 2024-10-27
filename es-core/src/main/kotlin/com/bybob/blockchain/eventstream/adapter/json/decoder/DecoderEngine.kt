@@ -1,8 +1,8 @@
 package com.bybob.blockchain.eventstream.adapter.json.decoder
 
 import com.tinder.scarlet.Message
-import com.bybob.blockchain.evenstream.requireType
-import com.bybob.blockchain.evenstream.stream.rpc.response.MessageType
+import com.bybob.blockchain.eventstream.requireType
+import com.bybob.blockchain.eventstream.stream.rpc.response.MessageType
 import java.lang.reflect.ParameterizedType
 import java.lang.reflect.Type
 import kotlin.reflect.KClass

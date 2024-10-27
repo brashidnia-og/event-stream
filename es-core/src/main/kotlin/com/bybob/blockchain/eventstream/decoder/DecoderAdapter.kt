@@ -1,6 +1,6 @@
 package com.bybob.blockchain.eventstream.decoder
 
-import com.bybob.blockchain.evenstream.WsDecoderAdapter
+import com.bybob.blockchain.eventstream.WsDecoderAdapter
 import com.bybob.blockchain.eventstream.adapter.json.decoder.DecoderEngine
 import com.bybob.blockchain.eventstream.adapter.json.decoder.MessageDecoder
 

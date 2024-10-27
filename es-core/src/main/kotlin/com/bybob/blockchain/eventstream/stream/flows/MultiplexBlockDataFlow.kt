@@ -1,12 +1,12 @@
-package com.bybob.blockchain.evenstream.stream.flows
+package com.bybob.blockchain.eventstream.stream.flows
 
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.emptyFlow
 import kotlinx.coroutines.runBlocking
-import com.bybob.blockchain.evenstream.decoder.DecoderAdapter
-import com.bybob.blockchain.evenstream.net.NetAdapter
-import com.bybob.blockchain.evenstream.stream.WebSocketService
-import com.bybob.blockchain.evenstream.stream.clients.BlockData
+import com.bybob.blockchain.eventstream.decoder.DecoderAdapter
+import com.bybob.blockchain.eventstream.net.NetAdapter
+import com.bybob.blockchain.eventstream.stream.WebSocketService
+import com.bybob.blockchain.eventstream.stream.clients.BlockData
 
 /**
  * 'from' height argument specifier.

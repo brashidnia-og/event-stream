@@ -1,4 +1,4 @@
-package com.bybob.blockchain.evenstream.stream
+package com.bybob.blockchain.eventstream.stream
 
 import com.tinder.scarlet.Lifecycle
 import com.tinder.scarlet.WebSocket
@@ -7,7 +7,7 @@ import com.tinder.scarlet.ws.Receive
 import com.tinder.scarlet.ws.Send
 import kotlinx.coroutines.channels.ReceiveChannel
 import mu.KotlinLogging
-import com.bybob.blockchain.evenstream.stream.rpc.request.Subscribe
+import com.bybob.blockchain.eventstream.stream.rpc.request.Subscribe
 
 /**
  * Used by the Scarlet library to instantiate an implementation that provides access to a

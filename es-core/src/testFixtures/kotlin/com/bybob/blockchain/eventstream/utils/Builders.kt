@@ -2,20 +2,20 @@ package com.bybob.blockchain.eventstream.utils
 
 import com.squareup.moshi.Moshi
 import com.bybob.blockchain.eventstream.mocks.ServiceMocker
-import com.bybob.blockchain.evenstream.stream.models.ABCIInfoResponse
-import com.bybob.blockchain.evenstream.stream.models.BlockResponse
-import com.bybob.blockchain.evenstream.stream.models.BlockResultsResponse
-import com.bybob.blockchain.evenstream.stream.models.BlockchainResponse
+import com.bybob.blockchain.eventstream.stream.models.ABCIInfoResponse
+import com.bybob.blockchain.eventstream.stream.models.BlockResponse
+import com.bybob.blockchain.eventstream.stream.models.BlockResultsResponse
+import com.bybob.blockchain.eventstream.stream.models.BlockchainResponse
 import kotlinx.coroutines.ExperimentalCoroutinesApi
-import com.bybob.blockchain.evenstream.BlockStreamOptions
+import com.bybob.blockchain.eventstream.BlockStreamOptions
 import com.bybob.blockchain.eventstream.adapter.json.decoder.MoshiDecoderEngine
-import com.bybob.blockchain.evenstream.coroutines.DispatcherProvider
+import com.bybob.blockchain.eventstream.coroutines.DispatcherProvider
 import com.bybob.blockchain.eventstream.mocks.MockEventStreamService
 import com.bybob.blockchain.eventstream.mocks.MockTendermintServiceClient
-import com.bybob.blockchain.evenstream.stream.EventStream
-import com.bybob.blockchain.evenstream.stream.WebSocketService
-import com.bybob.blockchain.evenstream.stream.clients.TendermintBlockFetcher
-import com.bybob.blockchain.evenstream.stream.clients.TendermintServiceClient
+import com.bybob.blockchain.eventstream.stream.EventStream
+import com.bybob.blockchain.eventstream.stream.WebSocketService
+import com.bybob.blockchain.eventstream.stream.clients.TendermintBlockFetcher
+import com.bybob.blockchain.eventstream.stream.clients.TendermintServiceClient
 
 @ExperimentalCoroutinesApi
 object Builders {

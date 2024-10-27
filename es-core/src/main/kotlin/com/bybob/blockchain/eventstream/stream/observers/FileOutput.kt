@@ -1,6 +1,6 @@
-package com.bybob.blockchain.evenstream.stream.observers
+package com.bybob.blockchain.eventstream.stream.observers
 
-import com.bybob.blockchain.evenstream.api.BlockSink
+import com.bybob.blockchain.eventstream.api.BlockSink
 import com.bybob.blockchain.eventstream.adapter.json.decoder.Adapter
 import com.bybob.blockchain.eventstream.adapter.json.decoder.adapter
 import com.bybob.blockchain.eventstream.adapter.json.decoder.DecoderEngine

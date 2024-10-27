@@ -1,6 +1,6 @@
 package com.bybob.blockchain.eventstream.stream
 
-import com.bybob.blockchain.evenstream.api.BlockSource
+import com.bybob.blockchain.eventstream.api.BlockSource
 import com.bybob.blockchain.eventstream.stream.models.StreamBlock
 import io.provenance.kafka.coroutine.KafkaSource
 import kotlinx.coroutines.flow.Flow

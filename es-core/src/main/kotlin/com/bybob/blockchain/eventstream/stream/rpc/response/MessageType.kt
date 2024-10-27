@@ -1,10 +1,10 @@
 package com.bybob.blockchain.eventstream.stream.rpc.response
 
-import com.bybob.blockchain.evenstream.stream.decoder.Decoder as TDecoder
+import com.bybob.blockchain.eventstream.stream.decoder.Decoder as TDecoder
 import com.bybob.blockchain.eventstream.adapter.json.decoder.DecoderDataException
 import com.bybob.blockchain.eventstream.adapter.json.decoder.DecoderEngine
 import com.bybob.blockchain.eventstream.stream.NewBlockResult
-import com.bybob.blockchain.evenstream.stream.models.NewBlockHeaderResult
+import com.bybob.blockchain.eventstream.stream.models.NewBlockHeaderResult
 import mu.KotlinLogging
 import kotlin.reflect.full.primaryConstructor
 

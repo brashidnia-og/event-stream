@@ -3,7 +3,7 @@ package com.bybob.blockchain.eventstream
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.FlowPreview
 import kotlinx.coroutines.flow.DEFAULT_CONCURRENCY
-import com.bybob.blockchain.evenstream.stream.EventStream
+import com.bybob.blockchain.eventstream.stream.EventStream
 
 // Help out the type system.
 fun blockStreamCfg(fn: BlockStreamCfg): BlockStreamCfg = { fn() }

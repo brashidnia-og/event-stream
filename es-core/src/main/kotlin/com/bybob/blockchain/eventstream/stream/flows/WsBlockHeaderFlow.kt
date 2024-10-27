@@ -1,4 +1,4 @@
-package com.bybob.blockchain.evenstream.stream.flows
+package com.bybob.blockchain.eventstream.stream.flows
 
 import com.tinder.scarlet.lifecycle.LifecycleRegistry
 import com.tinder.scarlet.retry.BackoffStrategy
@@ -6,17 +6,17 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.asFlow
 import kotlinx.coroutines.flow.map
 import com.bybob.blockchain.eventstream.common.flows.contiguous
-import com.bybob.blockchain.evenstream.decoder.DecoderAdapter
-import com.bybob.blockchain.evenstream.defaultBackoffStrategy
-import com.bybob.blockchain.evenstream.defaultLifecycle
-import com.bybob.blockchain.evenstream.defaultWebSocketChannel
-import com.bybob.blockchain.evenstream.net.NetAdapter
-import com.bybob.blockchain.evenstream.stream.WebSocketChannel
-import com.bybob.blockchain.evenstream.stream.WebSocketService
-import com.bybob.blockchain.evenstream.stream.models.BlockHeader
-import com.bybob.blockchain.evenstream.stream.models.BlockMeta
-import com.bybob.blockchain.evenstream.stream.rpc.response.MessageType
-import com.bybob.blockchain.evenstream.stream.withLifecycle
+import com.bybob.blockchain.eventstream.decoder.DecoderAdapter
+import com.bybob.blockchain.eventstream.defaultBackoffStrategy
+import com.bybob.blockchain.eventstream.defaultLifecycle
+import com.bybob.blockchain.eventstream.defaultWebSocketChannel
+import com.bybob.blockchain.eventstream.net.NetAdapter
+import com.bybob.blockchain.eventstream.stream.WebSocketChannel
+import com.bybob.blockchain.eventstream.stream.WebSocketService
+import com.bybob.blockchain.eventstream.stream.models.BlockHeader
+import com.bybob.blockchain.eventstream.stream.models.BlockMeta
+import com.bybob.blockchain.eventstream.stream.rpc.response.MessageType
+import com.bybob.blockchain.eventstream.stream.withLifecycle
 import kotlin.time.Duration
 
 /**

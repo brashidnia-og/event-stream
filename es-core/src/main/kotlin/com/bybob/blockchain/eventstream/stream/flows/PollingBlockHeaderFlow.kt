@@ -1,10 +1,10 @@
-package com.bybob.blockchain.evenstream.stream.flows
+package com.bybob.blockchain.eventstream.stream.flows
 
-import com.bybob.blockchain.evenstream.stream.models.BlockHeader
+import com.bybob.blockchain.eventstream.stream.models.BlockHeader
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.toList
 import com.bybob.blockchain.eventstream.common.flows.pollingDataFlow
-import com.bybob.blockchain.evenstream.net.NetAdapter
+import com.bybob.blockchain.eventstream.net.NetAdapter
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.seconds
 

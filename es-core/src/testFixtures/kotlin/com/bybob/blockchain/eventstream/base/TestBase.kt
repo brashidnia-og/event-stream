@@ -1,4 +1,4 @@
-package com.bybob.blockchain.evenstream.test.base
+package com.bybob.blockchain.eventstream.test.base
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi

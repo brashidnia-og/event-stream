@@ -1,7 +1,7 @@
 package com.bybob.blockchain.eventstream.stream.clients
 
 import com.bybob.blockchain.eventstream.mocks.mockBlockFetcher
-import com.bybob.blockchain.evenstream.test.base.TestBase
+import com.bybob.blockchain.eventstream.test.base.TestBase
 import com.bybob.blockchain.eventstream.utils.MIN_HISTORICAL_BLOCK_HEIGHT
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import org.junit.jupiter.api.AfterAll

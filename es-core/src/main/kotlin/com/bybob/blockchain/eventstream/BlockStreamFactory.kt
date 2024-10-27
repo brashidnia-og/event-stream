@@ -2,17 +2,17 @@ package com.bybob.blockchain.eventstream
 
 import com.tinder.scarlet.Scarlet
 import com.tinder.scarlet.lifecycle.LifecycleRegistry
-import com.bybob.blockchain.evenstream.api.BlockSource
+import com.bybob.blockchain.eventstream.api.BlockSource
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import org.slf4j.LoggerFactory
 import com.bybob.blockchain.eventstream.adapter.json.decoder.DecoderEngine
-import com.bybob.blockchain.evenstream.config.Config
-import com.bybob.blockchain.evenstream.coroutines.DefaultDispatcherProvider
-import com.bybob.blockchain.evenstream.coroutines.DispatcherProvider
-import com.bybob.blockchain.evenstream.stream.WebSocketChannel
-import com.bybob.blockchain.evenstream.stream.withLifecycle
-import com.bybob.blockchain.evenstream.stream.EventStream
-import com.bybob.blockchain.evenstream.stream.clients.TendermintBlockFetcher
+import com.bybob.blockchain.eventstream.config.Config
+import com.bybob.blockchain.eventstream.coroutines.DefaultDispatcherProvider
+import com.bybob.blockchain.eventstream.coroutines.DispatcherProvider
+import com.bybob.blockchain.eventstream.stream.WebSocketChannel
+import com.bybob.blockchain.eventstream.stream.withLifecycle
+import com.bybob.blockchain.eventstream.stream.EventStream
+import com.bybob.blockchain.eventstream.stream.clients.TendermintBlockFetcher
 import com.bybob.blockchain.eventstream.stream.models.StreamBlockImpl
 
 typealias BlockStreamCfg = BlockStreamOptions.() -> BlockStreamOptions

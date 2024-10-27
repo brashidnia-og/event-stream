@@ -2,10 +2,10 @@ package com.bybob.blockchain.eventstream
 
 import com.bybob.blockchain.eventstream.stream.kafkaBlockSink
 import com.bybob.blockchain.eventstream.stream.models.BlockEvent
-import com.bybob.blockchain.evenstream.stream.models.BlockResponse
-import com.bybob.blockchain.evenstream.stream.models.BlockResultsResponse
+import com.bybob.blockchain.eventstream.stream.models.BlockResponse
+import com.bybob.blockchain.eventstream.stream.models.BlockResultsResponse
 import com.bybob.blockchain.eventstream.stream.models.StreamBlockImpl
-import com.bybob.blockchain.evenstream.test.base.TestBase
+import com.bybob.blockchain.eventstream.test.base.TestBase
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import org.apache.kafka.clients.CommonClientConfigs
 import org.apache.kafka.clients.producer.MockProducer

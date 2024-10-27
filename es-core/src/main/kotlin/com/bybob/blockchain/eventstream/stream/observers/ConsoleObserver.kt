@@ -1,10 +1,10 @@
-package com.bybob.blockchain.evenstream.stream.observers
+package com.bybob.blockchain.eventstream.stream.observers
 
-import com.bybob.blockchain.evenstream.api.BlockSink
-import com.bybob.blockchain.evenstream.stream.models.Event
+import com.bybob.blockchain.eventstream.api.BlockSink
+import com.bybob.blockchain.eventstream.stream.models.Event
 import mu.KotlinLogging
-import com.bybob.blockchain.evenstream.decodeBase64
-import com.bybob.blockchain.evenstream.isAsciiPrintable
+import com.bybob.blockchain.eventstream.decodeBase64
+import com.bybob.blockchain.eventstream.isAsciiPrintable
 import com.bybob.blockchain.eventstream.stream.models.BlockEvent
 import com.bybob.blockchain.eventstream.stream.models.StreamBlock
 import com.bybob.blockchain.eventstream.stream.models.StreamBlockImpl

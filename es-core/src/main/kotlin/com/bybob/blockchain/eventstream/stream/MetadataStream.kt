@@ -1,6 +1,6 @@
-package com.bybob.blockchain.evenstream.stream
+package com.bybob.blockchain.eventstream.stream
 
-import com.bybob.blockchain.evenstream.stream.models.BlockMeta
+import com.bybob.blockchain.eventstream.stream.models.BlockMeta
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.coroutineScope
@@ -10,8 +10,8 @@ import kotlinx.coroutines.flow.emitAll
 import kotlinx.coroutines.flow.flatMapConcat
 import kotlinx.coroutines.flow.flow
 import mu.KotlinLogging
-import com.bybob.blockchain.evenstream.BlockStreamOptions
-import com.bybob.blockchain.evenstream.stream.clients.TendermintBlockFetcher
+import com.bybob.blockchain.eventstream.BlockStreamOptions
+import com.bybob.blockchain.eventstream.stream.clients.TendermintBlockFetcher
 import kotlin.math.floor
 import kotlin.math.max
 import kotlin.math.min

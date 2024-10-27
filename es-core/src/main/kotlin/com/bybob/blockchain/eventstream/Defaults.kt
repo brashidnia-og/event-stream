@@ -9,8 +9,8 @@ import com.tinder.scarlet.retry.ExponentialWithJitterBackoffStrategy
 import com.tinder.streamadapter.coroutines.CoroutinesStreamAdapterFactory
 import kotlinx.coroutines.CancellationException
 import mu.KotlinLogging
-import com.bybob.blockchain.evenstream.stream.WebSocketChannel
-import com.bybob.blockchain.evenstream.stream.flows.DEFAULT_THROTTLE_PERIOD
+import com.bybob.blockchain.eventstream.stream.WebSocketChannel
+import com.bybob.blockchain.eventstream.stream.flows.DEFAULT_THROTTLE_PERIOD
 import java.lang.reflect.Type
 import kotlin.time.Duration
 

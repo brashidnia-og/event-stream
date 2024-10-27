@@ -1,11 +1,11 @@
 package com.bybob.blockchain.eventstream.mocks
 
-import com.bybob.blockchain.evenstream.stream.models.BlockResponse
-import com.bybob.blockchain.evenstream.stream.models.BlockResultsResponse
-import com.bybob.blockchain.evenstream.stream.models.BlockchainResponse
-import com.bybob.blockchain.evenstream.stream.clients.TendermintServiceClient
-import com.bybob.blockchain.evenstream.stream.models.ABCIInfoResponse
-import com.bybob.blockchain.evenstream.stream.models.GenesisResponse
+import com.bybob.blockchain.eventstream.stream.models.BlockResponse
+import com.bybob.blockchain.eventstream.stream.models.BlockResultsResponse
+import com.bybob.blockchain.eventstream.stream.models.BlockchainResponse
+import com.bybob.blockchain.eventstream.stream.clients.TendermintServiceClient
+import com.bybob.blockchain.eventstream.stream.models.ABCIInfoResponse
+import com.bybob.blockchain.eventstream.stream.models.GenesisResponse
 
 class MockTendermintServiceClient(mocker: ServiceMock) : TendermintServiceClient, ServiceMock by mocker {
 

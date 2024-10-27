@@ -1,4 +1,4 @@
-package com.bybob.blockchain.evenstream.stream.flows
+package com.bybob.blockchain.eventstream.stream.flows
 
 import com.tinder.scarlet.Message
 import com.tinder.scarlet.WebSocket
@@ -12,15 +12,15 @@ import kotlinx.coroutines.flow.transform
 import mu.KotlinLogging
 import com.bybob.blockchain.eventstream.adapter.json.decoder.MessageDecoder
 import com.bybob.blockchain.eventstream.common.debug.toJsonString
-import com.bybob.blockchain.evenstream.decoder.DecoderAdapter
-import com.bybob.blockchain.evenstream.defaultLifecycle
-import com.bybob.blockchain.evenstream.defaultWebSocketChannel
-import com.bybob.blockchain.evenstream.net.NetAdapter
-import com.bybob.blockchain.evenstream.stream.WebSocketChannel
-import com.bybob.blockchain.evenstream.stream.WebSocketService
-import com.bybob.blockchain.evenstream.stream.rpc.request.Subscribe
-import com.bybob.blockchain.evenstream.stream.rpc.response.MessageType
-import com.bybob.blockchain.evenstream.stream.withLifecycle
+import com.bybob.blockchain.eventstream.decoder.DecoderAdapter
+import com.bybob.blockchain.eventstream.defaultLifecycle
+import com.bybob.blockchain.eventstream.defaultWebSocketChannel
+import com.bybob.blockchain.eventstream.net.NetAdapter
+import com.bybob.blockchain.eventstream.stream.WebSocketChannel
+import com.bybob.blockchain.eventstream.stream.WebSocketService
+import com.bybob.blockchain.eventstream.stream.rpc.request.Subscribe
+import com.bybob.blockchain.eventstream.stream.rpc.response.MessageType
+import com.bybob.blockchain.eventstream.stream.withLifecycle
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.seconds
 

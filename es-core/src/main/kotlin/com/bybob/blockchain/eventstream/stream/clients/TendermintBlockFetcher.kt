@@ -1,7 +1,7 @@
-package com.bybob.blockchain.evenstream.stream.clients
+package com.bybob.blockchain.eventstream.stream.clients
 
-import com.bybob.blockchain.evenstream.stream.models.BlockMeta
-import com.bybob.blockchain.evenstream.stream.models.BlockResultsResponse
+import com.bybob.blockchain.eventstream.stream.models.BlockMeta
+import com.bybob.blockchain.eventstream.stream.models.BlockResultsResponse
 import kotlinx.coroutines.FlowPreview
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll

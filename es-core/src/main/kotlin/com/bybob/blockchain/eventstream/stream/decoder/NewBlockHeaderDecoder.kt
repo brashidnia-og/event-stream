@@ -1,10 +1,10 @@
-package com.bybob.blockchain.evenstream.stream.decoder
+package com.bybob.blockchain.eventstream.stream.decoder
 
 import com.bybob.blockchain.eventstream.adapter.json.decoder.Adapter
 import com.bybob.blockchain.eventstream.adapter.json.decoder.DecoderEngine
-import com.bybob.blockchain.evenstream.stream.models.NewBlockHeaderResult
-import com.bybob.blockchain.evenstream.stream.rpc.response.MessageType
-import com.bybob.blockchain.evenstream.stream.rpc.response.RpcResponse
+import com.bybob.blockchain.eventstream.stream.models.NewBlockHeaderResult
+import com.bybob.blockchain.eventstream.stream.rpc.response.MessageType
+import com.bybob.blockchain.eventstream.stream.rpc.response.RpcResponse
 
 class NewBlockHeaderDecoder(decoderEngine: DecoderEngine) : Decoder(decoderEngine) {
     override val priority: Int = 100

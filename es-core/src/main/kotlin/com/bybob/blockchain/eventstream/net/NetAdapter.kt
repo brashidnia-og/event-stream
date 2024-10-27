@@ -1,7 +1,7 @@
 package com.bybob.blockchain.eventstream.net
 
-import com.bybob.blockchain.evenstream.WsAdapter
-import com.bybob.blockchain.evenstream.stream.clients.BlockFetcher
+import com.bybob.blockchain.eventstream.WsAdapter
+import com.bybob.blockchain.eventstream.stream.clients.BlockFetcher
 
 /**
  * Create a generic [NetAdapter] to interface with the web socket channels.

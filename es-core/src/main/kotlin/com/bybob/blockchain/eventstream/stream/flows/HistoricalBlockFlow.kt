@@ -1,7 +1,7 @@
-package com.bybob.blockchain.evenstream.stream.flows
+package com.bybob.blockchain.eventstream.stream.flows
 
-import com.bybob.blockchain.evenstream.net.NetAdapter
-import com.bybob.blockchain.evenstream.stream.clients.BlockData
+import com.bybob.blockchain.eventstream.net.NetAdapter
+import com.bybob.blockchain.eventstream.stream.clients.BlockData
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.FlowPreview
 import kotlinx.coroutines.flow.DEFAULT_CONCURRENCY

@@ -16,7 +16,7 @@ import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.launch
 import kotlinx.datetime.Clock
 import kotlinx.datetime.Instant
-import com.bybob.blockchain.evenstream.stream.models.BlockMeta
+import com.bybob.blockchain.eventstream.stream.models.BlockMeta
 import kotlin.math.max
 import kotlin.math.min
 import kotlin.time.Duration

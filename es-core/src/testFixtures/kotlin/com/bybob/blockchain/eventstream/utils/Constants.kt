@@ -1,6 +1,6 @@
 package com.bybob.blockchain.eventstream.utils
 
-import com.bybob.blockchain.evenstream.stream.EventStream
+import com.bybob.blockchain.eventstream.stream.EventStream
 
 /***********************************************************************************************************************
  * Streaming

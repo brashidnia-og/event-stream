@@ -1,13 +1,13 @@
-package com.bybob.blockchain.evenstream.stream
+package com.bybob.blockchain.eventstream.stream
 
 import com.squareup.moshi.JsonDataException
-import com.bybob.blockchain.evenstream.api.BlockSource
+import com.bybob.blockchain.eventstream.api.BlockSource
 import com.bybob.blockchain.eventstream.adapter.json.decoder.DecoderEngine
-import com.bybob.blockchain.evenstream.coroutines.DefaultDispatcherProvider
-import com.bybob.blockchain.evenstream.coroutines.DispatcherProvider
-import com.bybob.blockchain.evenstream.stream.clients.TendermintBlockFetcher
-import com.bybob.blockchain.evenstream.stream.models.Block
-import com.bybob.blockchain.evenstream.stream.models.BlockMeta
+import com.bybob.blockchain.eventstream.coroutines.DefaultDispatcherProvider
+import com.bybob.blockchain.eventstream.coroutines.DispatcherProvider
+import com.bybob.blockchain.eventstream.stream.clients.TendermintBlockFetcher
+import com.bybob.blockchain.eventstream.stream.models.Block
+import com.bybob.blockchain.eventstream.stream.models.BlockMeta
 import com.bybob.blockchain.eventstream.stream.models.EncodedBlockchainEvent
 import com.bybob.blockchain.eventstream.stream.models.StreamBlock
 import com.bybob.blockchain.eventstream.stream.models.StreamBlockImpl
@@ -41,7 +41,7 @@ import kotlinx.coroutines.flow.consumeAsFlow
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.flow.collect
 import mu.KotlinLogging
-import com.bybob.blockchain.evenstream.BlockStreamOptions
+import com.bybob.blockchain.eventstream.BlockStreamOptions
 import java.io.EOFException
 import java.net.ConnectException
 import java.net.SocketException

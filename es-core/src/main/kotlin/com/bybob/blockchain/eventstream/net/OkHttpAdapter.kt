@@ -3,9 +3,9 @@ package com.bybob.blockchain.eventstream.net
 import com.tinder.scarlet.websocket.okhttp.newWebSocketFactory
 import mu.KotlinLogging
 import okhttp3.OkHttpClient
-import com.bybob.blockchain.evenstream.awaitShutdown
-import com.bybob.blockchain.evenstream.stream.clients.TendermintBlockFetcher
-import com.bybob.blockchain.evenstream.stream.clients.TendermintServiceOpenApiClient
+import com.bybob.blockchain.eventstream.awaitShutdown
+import com.bybob.blockchain.eventstream.stream.clients.TendermintBlockFetcher
+import com.bybob.blockchain.eventstream.stream.clients.TendermintServiceOpenApiClient
 import java.net.URI
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.seconds

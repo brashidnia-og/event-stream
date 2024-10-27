@@ -4,10 +4,10 @@ import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import com.bybob.blockchain.eventstream.adapter.json.JSONObjectAdapter
 import com.bybob.blockchain.eventstream.adapter.json.decoder.MoshiDecoderEngine
-import com.bybob.blockchain.evenstream.stream.infrastructure.Serializer
-import com.bybob.blockchain.evenstream.stream.models.BlockResponse
-import com.bybob.blockchain.evenstream.stream.models.BlockResultsResponse
-import com.bybob.blockchain.evenstream.stream.models.BlockchainResponse
+import com.bybob.blockchain.eventstream.stream.infrastructure.Serializer
+import com.bybob.blockchain.eventstream.stream.models.BlockResponse
+import com.bybob.blockchain.eventstream.stream.models.BlockResultsResponse
+import com.bybob.blockchain.eventstream.stream.models.BlockchainResponse
 
 object Defaults {
 

@@ -3,15 +3,15 @@ package com.bybob.blockchain.eventstream
 import com.tinder.scarlet.Message
 import com.tinder.scarlet.WebSocket
 import com.bybob.blockchain.eventstream.adapter.json.decoder.DecoderEncodingException
-import com.bybob.blockchain.evenstream.decoder.moshiDecoderAdapter
-import com.bybob.blockchain.evenstream.stream.models.ABCIInfoResponse
-import com.bybob.blockchain.evenstream.stream.models.BlockResponse
-import com.bybob.blockchain.evenstream.stream.models.Event
+import com.bybob.blockchain.eventstream.decoder.moshiDecoderAdapter
+import com.bybob.blockchain.eventstream.stream.models.ABCIInfoResponse
+import com.bybob.blockchain.eventstream.stream.models.BlockResponse
+import com.bybob.blockchain.eventstream.stream.models.Event
 import com.bybob.blockchain.eventstream.stream.models.toDecodedMap
-import com.bybob.blockchain.evenstream.stream.models.BlockResultsResponse
-import com.bybob.blockchain.evenstream.stream.models.BlockchainResponse
-import com.bybob.blockchain.evenstream.stream.rpc.response.MessageType
-import com.bybob.blockchain.evenstream.test.base.TestBase
+import com.bybob.blockchain.eventstream.stream.models.BlockResultsResponse
+import com.bybob.blockchain.eventstream.stream.models.BlockchainResponse
+import com.bybob.blockchain.eventstream.stream.rpc.response.MessageType
+import com.bybob.blockchain.eventstream.test.base.TestBase
 import com.bybob.blockchain.eventstream.mocks.MockTendermintServiceClient
 import com.bybob.blockchain.eventstream.mocks.ServiceMocker
 import com.bybob.blockchain.eventstream.utils.EXPECTED_NONEMPTY_BLOCKS
@@ -31,8 +31,8 @@ import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.TestInstance
 import org.junit.jupiter.api.assertThrows
 import com.bybob.blockchain.eventstream.mocks.MockEventStreamService
-import com.bybob.blockchain.evenstream.stream.clients.TendermintServiceClient
-import com.bybob.blockchain.evenstream.stream.models.GenesisResponse
+import com.bybob.blockchain.eventstream.stream.clients.TendermintServiceClient
+import com.bybob.blockchain.eventstream.stream.models.GenesisResponse
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 class StreamTests : TestBase() {

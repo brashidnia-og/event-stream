@@ -1,6 +1,6 @@
 package com.bybob.blockchain.eventstream.config
 
-import com.bybob.blockchain.evenstream.stream.EventStream
+import com.bybob.blockchain.eventstream.stream.EventStream
 import kotlinx.coroutines.flow.DEFAULT_CONCURRENCY
 
 data class Options(

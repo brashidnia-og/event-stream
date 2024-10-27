@@ -5,7 +5,7 @@ import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.TestCoroutineDispatcher
 import kotlinx.coroutines.test.TestCoroutineScope
 import kotlinx.coroutines.test.runBlockingTest
-import com.bybob.blockchain.evenstream.coroutines.DispatcherProvider
+import com.bybob.blockchain.eventstream.coroutines.DispatcherProvider
 
 @ExperimentalCoroutinesApi
 class TestDispatcherProvider : DispatcherProvider {

@@ -1,6 +1,6 @@
 package com.bybob.blockchain.eventstream.stream
 
-import com.bybob.blockchain.evenstream.stream.infrastructure.Serializer.moshi
+import com.bybob.blockchain.eventstream.stream.infrastructure.Serializer.moshi
 import com.bybob.blockchain.eventstream.stream.models.StreamBlockImpl
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow

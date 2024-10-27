@@ -1,10 +1,10 @@
-package com.bybob.blockchain.evenstream.stream.decoder
+package com.bybob.blockchain.eventstream.stream.decoder
 
 import com.bybob.blockchain.eventstream.adapter.json.decoder.Adapter
 import com.bybob.blockchain.eventstream.adapter.json.decoder.DecoderEngine
-import com.bybob.blockchain.evenstream.stream.rpc.response.MessageType
-import com.bybob.blockchain.evenstream.stream.rpc.response.RpcError
-import com.bybob.blockchain.evenstream.stream.rpc.response.RpcResponse
+import com.bybob.blockchain.eventstream.stream.rpc.response.MessageType
+import com.bybob.blockchain.eventstream.stream.rpc.response.RpcError
+import com.bybob.blockchain.eventstream.stream.rpc.response.RpcResponse
 import org.json.JSONObject
 
 class ErrorMessageDecoder(decoderEngine: DecoderEngine) : Decoder(decoderEngine) {

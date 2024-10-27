@@ -1,6 +1,6 @@
-package com.bybob.blockchain.evenstream.stream.consumers
+package com.bybob.blockchain.eventstream.stream.consumers
 
-import com.bybob.blockchain.evenstream.stream.EventStream
+import com.bybob.blockchain.eventstream.stream.EventStream
 import com.bybob.blockchain.eventstream.stream.models.StreamBlock
 import com.bybob.blockchain.eventstream.stream.models.StreamBlockImpl
 import kotlinx.coroutines.ExperimentalCoroutinesApi
@@ -9,8 +9,8 @@ import kotlinx.coroutines.flow.buffer
 import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.collect
 import mu.KotlinLogging
-import com.bybob.blockchain.evenstream.BlockStreamFactory
-import com.bybob.blockchain.evenstream.BlockStreamOptions
+import com.bybob.blockchain.eventstream.BlockStreamFactory
+import com.bybob.blockchain.eventstream.BlockStreamOptions
 
 /**
  * An event stream consumer that displays blocks from the provided event stream.

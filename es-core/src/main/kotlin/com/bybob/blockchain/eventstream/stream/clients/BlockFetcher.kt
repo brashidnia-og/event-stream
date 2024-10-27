@@ -1,9 +1,9 @@
-package com.bybob.blockchain.evenstream.stream.clients
+package com.bybob.blockchain.eventstream.stream.clients
 
-import com.bybob.blockchain.evenstream.stream.models.Block
-import com.bybob.blockchain.evenstream.stream.models.BlockMeta
-import com.bybob.blockchain.evenstream.stream.models.BlockResultsResponse
-import com.bybob.blockchain.evenstream.stream.models.BlockResultsResponseResult
+import com.bybob.blockchain.eventstream.stream.models.Block
+import com.bybob.blockchain.eventstream.stream.models.BlockMeta
+import com.bybob.blockchain.eventstream.stream.models.BlockResultsResponse
+import com.bybob.blockchain.eventstream.stream.models.BlockResultsResponseResult
 import kotlinx.coroutines.FlowPreview
 import kotlinx.coroutines.flow.DEFAULT_CONCURRENCY
 import kotlinx.coroutines.flow.Flow

@@ -3,11 +3,11 @@ package com.bybob.blockchain.eventstream
 import com.squareup.moshi.JsonAdapter
 import com.bybob.blockchain.eventstream.stream.KafkaStreamBlock
 import com.bybob.blockchain.eventstream.stream.acking
-import com.bybob.blockchain.evenstream.stream.models.Block
-import com.bybob.blockchain.evenstream.stream.models.BlockResultsResponse
+import com.bybob.blockchain.eventstream.stream.models.Block
+import com.bybob.blockchain.eventstream.stream.models.BlockResultsResponse
 import com.bybob.blockchain.eventstream.stream.toByteArray
 import com.bybob.blockchain.eventstream.stream.toStreamBlock
-import com.bybob.blockchain.evenstream.test.base.TestBase
+import com.bybob.blockchain.eventstream.test.base.TestBase
 import io.provenance.kafka.coroutine.kafkaConsumerChannel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.map
@@ -26,7 +26,7 @@ import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.TestInstance
 import org.junit.jupiter.api.assertThrows
 import com.bybob.blockchain.eventstream.stream.models.BlockEvent
-import com.bybob.blockchain.evenstream.stream.models.BlockResponse
+import com.bybob.blockchain.eventstream.stream.models.BlockResponse
 import com.bybob.blockchain.eventstream.stream.models.StreamBlockImpl
 import com.bybob.blockchain.eventstream.utils.Defaults.moshi
 import java.time.OffsetDateTime

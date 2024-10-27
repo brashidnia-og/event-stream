@@ -1,10 +1,10 @@
-package com.bybob.blockchain.evenstream.stream.clients
+package com.bybob.blockchain.eventstream.stream.clients
 
-import com.bybob.blockchain.evenstream.stream.models.ABCIInfoResponse
-import com.bybob.blockchain.evenstream.stream.models.BlockResponse
-import com.bybob.blockchain.evenstream.stream.models.BlockResultsResponse
-import com.bybob.blockchain.evenstream.stream.models.BlockchainResponse
-import com.bybob.blockchain.evenstream.stream.models.GenesisResponse
+import com.bybob.blockchain.eventstream.stream.models.ABCIInfoResponse
+import com.bybob.blockchain.eventstream.stream.models.BlockResponse
+import com.bybob.blockchain.eventstream.stream.models.BlockResultsResponse
+import com.bybob.blockchain.eventstream.stream.models.BlockchainResponse
+import com.bybob.blockchain.eventstream.stream.models.GenesisResponse
 
 /**
  * A client designed to interact with the Tendermint RPC API.

@@ -1,11 +1,11 @@
 package com.bybob.blockchain.eventstream.stream
 
 import com.squareup.moshi.JsonClass
-import com.bybob.blockchain.evenstream.stream.models.Block
-import com.bybob.blockchain.evenstream.stream.models.BlockResultsResponseResultTxsResultsEvents
-import com.bybob.blockchain.evenstream.stream.models.ConsensusParamsBlock
-import com.bybob.blockchain.evenstream.stream.models.ConsensusParamsEvidence
-import com.bybob.blockchain.evenstream.stream.models.ConsensusParamsValidator
+import com.bybob.blockchain.eventstream.stream.models.Block
+import com.bybob.blockchain.eventstream.stream.models.BlockResultsResponseResultTxsResultsEvents
+import com.bybob.blockchain.eventstream.stream.models.ConsensusParamsBlock
+import com.bybob.blockchain.eventstream.stream.models.ConsensusParamsEvidence
+import com.bybob.blockchain.eventstream.stream.models.ConsensusParamsValidator
 
 /**
  * Response wrapper data class.

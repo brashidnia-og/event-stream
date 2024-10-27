@@ -1,11 +1,11 @@
-package com.bybob.blockchain.evenstream.stream.flows
+package com.bybob.blockchain.eventstream.stream.flows
 
-import com.bybob.blockchain.evenstream.stream.clients.BlockData
-import com.bybob.blockchain.evenstream.stream.models.BlockHeader
+import com.bybob.blockchain.eventstream.stream.clients.BlockData
+import com.bybob.blockchain.eventstream.stream.models.BlockHeader
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.runBlocking
-import com.bybob.blockchain.evenstream.decoder.DecoderAdapter
-import com.bybob.blockchain.evenstream.net.NetAdapter
+import com.bybob.blockchain.eventstream.decoder.DecoderAdapter
+import com.bybob.blockchain.eventstream.net.NetAdapter
 
 /**
  * Create a [Flow] of [BlockHeader] from height to height. Uses polling under the hood for live data.

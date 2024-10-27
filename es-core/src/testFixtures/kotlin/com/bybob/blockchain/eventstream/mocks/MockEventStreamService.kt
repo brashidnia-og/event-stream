@@ -4,9 +4,9 @@ import com.squareup.moshi.JsonAdapter
 import com.squareup.moshi.Moshi
 import com.tinder.scarlet.Message
 import com.tinder.scarlet.WebSocket
-import com.bybob.blockchain.evenstream.coroutines.DispatcherProvider
-import com.bybob.blockchain.evenstream.stream.WebSocketService
-import com.bybob.blockchain.evenstream.stream.rpc.request.Subscribe
+import com.bybob.blockchain.eventstream.coroutines.DispatcherProvider
+import com.bybob.blockchain.eventstream.stream.WebSocketService
+import com.bybob.blockchain.eventstream.stream.rpc.request.Subscribe
 import com.bybob.blockchain.eventstream.utils.Defaults
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.channels.ChannelIterator

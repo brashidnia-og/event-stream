@@ -1,6 +1,6 @@
 package com.bybob.blockchain.eventstream.stream
 
-import com.bybob.blockchain.evenstream.api.BlockSink
+import com.bybob.blockchain.eventstream.api.BlockSink
 import com.bybob.blockchain.eventstream.stream.models.StreamBlockImpl
 import com.bybob.blockchain.eventstream.stream.models.StreamBlock
 import org.apache.kafka.clients.producer.KafkaProducer
