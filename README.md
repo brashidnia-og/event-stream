@@ -12,8 +12,8 @@ This is a flow based project to create an event listener on the [Provenance](htt
 
 [license-badge]: https://img.shields.io/github/license/FigureTechnologies/event-stream.svg
 [license-url]: https://github.com/FigureTechnologies/event-stream/blob/main/LICENSE
-[maven-badge]: https://maven-badges.herokuapp.com/maven-central/com.bybob.blockchain.eventstream/es-core/badge.svg
-[maven-url]: https://maven-badges.herokuapp.com/maven-central/com.bybob.blockchain.eventstream/es-core
+[maven-badge]: https://maven-badges.herokuapp.com/maven-central/io.bybob.blockchain.eventstream/es-core/badge.svg
+[maven-url]: https://maven-badges.herokuapp.com/maven-central/io.bybob.blockchain.eventstream/es-core
 [release-badge]: https://img.shields.io/github/tag/FigureTechnologies/event-stream.svg
 [release-latest]: https://github.com/FigureTechnologies/event-stream/releases/latest
 [code-coverage-badge]: https://codecov.io/gh/FigureTechnologies/event-stream/branch/main/graph/badge.svg
@@ -29,17 +29,17 @@ This is a flow based project to create an event listener on the [Provenance](htt
 ```xml
 <dependencies>
     <dependency>
-        <groupId>com.bybob.blockchain.eventstream</groupId>
+        <groupId>io.bybob.blockchain.eventstream</groupId>
         <artifactId>es-core</artifactId>
         <version>${version}</version>
     </dependency>
     <dependency>
-        <groupId>com.bybob.blockchain.eventstream</groupId>
+        <groupId>io.bybob.blockchain.eventstream</groupId>
         <artifactId>es-api</artifactId>
         <version>${version}</version>
     </dependency>
     <dependency>
-        <groupId>com.bybob.blockchain.eventstream</groupId>
+        <groupId>io.bybob.blockchain.eventstream</groupId>
         <artifactId>es-api-model</artifactId>
         <version>${version}</version>
     </dependency>
@@ -53,9 +53,9 @@ This is a flow based project to create an event listener on the [Provenance](htt
 In `build.gradle`:
 
 ```groovy
-implementation 'com.bybob.blockchain.eventstream:es-core:${version}'
-implementation 'com.bybob.blockchain.eventstream:es-api:${version}'
-implementation 'com.bybob.blockchain.eventstream:es-api-model:${version}'
+implementation 'io.bybob.blockchain.eventstream:es-core:${version}'
+implementation 'io.bybob.blockchain.eventstream:es-api:${version}'
+implementation 'io.bybob.blockchain.eventstream:es-api-model:${version}'
 ```
 
 #### Kotlin
@@ -63,9 +63,9 @@ implementation 'com.bybob.blockchain.eventstream:es-api-model:${version}'
 In `build.gradle.kts`:
 
 ```kotlin
-implementation("com.bybob.blockchain.eventstream:es-core:${version}")
-implementation("com.bybob.blockchain.eventstream:es-api:${version}")
-implementation("com.bybob.blockchain.eventstream:es-api-model:${version}")
+implementation("io.bybob.blockchain.eventstream:es-core:${version}")
+implementation("io.bybob.blockchain.eventstream:es-api:${version}")
+implementation("io.bybob.blockchain.eventstream:es-api-model:${version}")
 ```
 
 ## Setup

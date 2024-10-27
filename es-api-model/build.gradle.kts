@@ -55,8 +55,8 @@ tasks.register<org.openapitools.generator.gradle.plugin.tasks.GenerateTask>("gen
     validateSpec.set(true)
     inputSpec.set(tendermintOpenApiYaml)
     outputDir.set("$buildDir/generated")
-    packageName.set("com.bybob.blockchain.eventstream.stream")
-    modelPackage.set("com.bybob.blockchain.eventstream.stream.models")
+    packageName.set("io.bybob.blockchain.eventstream.stream")
+    modelPackage.set("io.bybob.blockchain.eventstream.stream.models")
     library.set("jvm-okhttp4")
     inlineSchemaOptions.put("ARRAY_ITEM_SUFFIX", "")
     configOptions.set(
