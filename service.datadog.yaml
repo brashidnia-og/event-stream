@@ -7,8 +7,4 @@ contacts:
 repos:
 - name: GitHub Repo
   provider: github
-  url: https://github.com/FigureTechnologies/event-stream
-docs:
-- name: GitHub Team
-  provider: github
-  url: https://github.com/orgs/FigureTechnologies/teams/backend-markets-rd/members
+  url: https://github.com/brashidnia-og/event-stream
