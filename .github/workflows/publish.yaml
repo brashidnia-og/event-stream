@@ -24,7 +24,7 @@ jobs:
           # Store version for later use.
           echo "VERSION=$VERSION" >> $GITHUB_ENV
       - name: Set up JDK 17
-        uses: actions/setup-java@v4gral
+        uses: actions/setup-java@v4
         with:
           java-version: 17
           distribution: 'zulu'
