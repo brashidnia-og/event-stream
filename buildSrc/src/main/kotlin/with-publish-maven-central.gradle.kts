@@ -33,7 +33,7 @@ configure<io.github.gradlenexus.publishplugin.NexusPublishExtension> {
             snapshotRepositoryUrl.set(uri("https://s01.oss.sonatype.org/content/repositories/snapshots/"))
             username.set(findProject("ossrhUsername")?.toString() ?: System.getenv("OSSRH_USERNAME"))
             password.set(findProject("ossrhPassword")?.toString() ?: System.getenv("OSSRH_PASSWORD"))
-            stagingProfileId.set("858b6e4de4734a") // prevents querying for the staging profile id, performance optimization
+//            stagingProfileId.set("858b6e4de4734a") // prevents querying for the staging profile id, performance optimization
         }
     }
 }
@@ -58,7 +58,6 @@ subprojects {
             jvmTarget = "17"
         }
     }
-
 
     configure<JavaPluginExtension> {
         sourceCompatibility = JavaVersion.VERSION_17
